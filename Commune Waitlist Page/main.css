@@ -1,0 +1,94 @@
+
+
+:root {
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+
+	--light-bg: rgb(245, 249, 254);
+	--dark-blue: rgb(55, 40, 101);
+	--dark-text: rgb(53, 50, 82);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	position: relative;
+	justify-content: center;
+
+}
+
+.container {
+	background-color: var(--light-bg);
+	width: 100%;
+
+	margin: 18px;
+	border-radius: 10px;
+}
+
+.logo {
+	padding: 50px 0 0 20px;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 8fr 1fr;
+	margin: 0;
+}
+
+.hamburger {
+	padding: 60px 0;
+}
+
+section div {
+	display: flex;
+	width: 325px;
+	height: 100%;
+	border-radius: 35px;
+	background-color: var(--dark-blue);
+	margin: 5px 18px;
+	place-content: center;
+}
+
+section p {
+	font-size: 1.14rem;
+	font-weight: 300;
+	text-align: center;
+	padding: 8px 0;
+	margin: 0 15px;
+	line-height: 25px;
+	color: rgb(209, 198, 235);
+}
+
+a:any-link {
+	font-weight: 600;
+	color: rgb(209, 198, 235);
+}
+
+section h1 {
+	color: var(--dark-text);
+	font-size: 2.25rem;
+	font-weight: 600;
+	text-align: center;
+	padding: 1.3rem 0 .3rem;
+	margin: 0 30px;
+	line-height: 48px;
+}
+
+.commune-offers {
+	margin: 0 15px;
+	color: rgb(84, 84, 84);
+	font-weight: 200;
+	line-height: 26px;
+	font-size: 1.15rem;
+}
+
+form {
+	display: grid;
+	margin: .3rem 18px;
+}
