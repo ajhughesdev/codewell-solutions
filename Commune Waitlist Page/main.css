@@ -1,6 +1,7 @@
 :root {
 	box-sizing: border-box;
 	font-family: 'Nunito', sans-serif;
+	overscroll-behavior: none;
 
 	--light-bg: rgb(245, 249, 254);
 	--dark-blue: rgb(55, 40, 101);
@@ -24,7 +25,7 @@ body {
 .container {
 	background-color: var(--light-bg);
 	width: 100%;
-	margin: 18px;
+	margin: 20px;
 	border-radius: 10px;
 }
 
@@ -47,21 +48,22 @@ section div {
 	height: 100%;
 	border-radius: 35px;
 	background-color: var(--dark-blue);
-	margin: 5px 18px;
+	margin: 0 25px;
 	place-content: center;
 }
 
 section p {
-	font-size: 1.2rem;
+	font-size: 1.15rem;
 	font-weight: 200;
 	text-align: center;
-	padding: 8px 0;
-	margin: 0 15px;
-	line-height: 25px;
+	padding: 10px 0 6px;
+	margin: 0  20px;
+	line-height: 24px;
 	color: rgb(209, 198, 235);
 }
 
 a:any-link {
+	text-decoration: underline;
 	font-weight: 600;
 	color: rgb(209, 198, 235);
 }
@@ -77,10 +79,10 @@ section h1 {
 }
 
 .commune-offers {
-	margin: 0 18px;
-	color: rgb(84, 84, 84);
+	margin: 0 16px;
+	color: rgb(74, 74, 74);
 	font-weight: 200;
-	line-height: 26px;
+	line-height: 28px;
 	font-size: 1.15rem;
 }
 
@@ -117,11 +119,11 @@ footer p {
 }
 
 .companies {
-	padding: 20px 0;
+	padding: 25px 0 20px;
 	font-size: 1.1rem;
 }
 
 .links>div {
 	display: inline-flex;
-	padding-right: 10px;
+	padding: 0 10px 15px 0;
 }
