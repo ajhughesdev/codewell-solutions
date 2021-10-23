@@ -3,7 +3,7 @@
 	font-family: 'Nunito', sans-serif;
 	overscroll-behavior: none;
 
-	--light-bg: rgb(245, 249, 254);
+	--light-bg: rgb(245, 248, 254);
 	--dark-blue: rgb(55, 40, 101);
 	--dark-text: rgb(53, 50, 82);
 }
